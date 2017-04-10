@@ -13,6 +13,7 @@
 		A1147E2D1E8DF6A80054A789 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1147E2B1E8DF6A80054A789 /* Main.storyboard */; };
 		A1147E2F1E8DF6A80054A789 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1147E2E1E8DF6A80054A789 /* Assets.xcassets */; };
 		A1147E321E8DF6A80054A789 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1147E301E8DF6A80054A789 /* LaunchScreen.storyboard */; };
+		A1147E3B1E8DF7B30054A789 /* MovableImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1147E3A1E8DF7B30054A789 /* MovableImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		A1147E2E1E8DF6A80054A789 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1147E311E8DF6A80054A789 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1147E331E8DF6A80054A789 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1147E391E8DF7B30054A789 /* MovableImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovableImageView.h; sourceTree = "<group>"; };
+		A1147E3A1E8DF7B30054A789 /* MovableImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovableImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				A1147E281E8DF6A80054A789 /* ViewController.h */,
 				A1147E291E8DF6A80054A789 /* ViewController.m */,
 				A1147E2B1E8DF6A80054A789 /* Main.storyboard */,
+				A1147E391E8DF7B30054A789 /* MovableImageView.h */,
+				A1147E3A1E8DF7B30054A789 /* MovableImageView.m */,
 				A1147E2E1E8DF6A80054A789 /* Assets.xcassets */,
 				A1147E301E8DF6A80054A789 /* LaunchScreen.storyboard */,
 				A1147E331E8DF6A80054A789 /* Info.plist */,
@@ -152,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1147E2A1E8DF6A80054A789 /* ViewController.m in Sources */,
+				A1147E3B1E8DF7B30054A789 /* MovableImageView.m in Sources */,
 				A1147E271E8DF6A80054A789 /* AppDelegate.m in Sources */,
 				A1147E241E8DF6A80054A789 /* main.m in Sources */,
 			);
@@ -312,6 +318,7 @@
 				A1147E381E8DF6A80054A789 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

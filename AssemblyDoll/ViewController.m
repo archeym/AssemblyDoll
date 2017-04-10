@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "MovableImageView.h"
 
-@interface ViewController ()
+@interface ViewController ()<MovableImageViewDelegate>
+
 
 @end
 
@@ -16,14 +18,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    //set delegate
+    for (id subview in self.view.subviews){
+        if([subview isKindOfClass:[MovableImageView class]]){
+            ((MovableImageView*)subview).delegate = self;
+            
+        }
+    }
 }
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
-
+#pragma mark - MovableImageViewDelegate
+         -(void)didTapOnImageView:(MovableImageView *)head{
+             [self.view bringSubviewToFront:head];
+         }
 @end
